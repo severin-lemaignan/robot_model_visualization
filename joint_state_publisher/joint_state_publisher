@@ -1,6 +1,6 @@
 #!/usr/bin/python
 
-import roslib; roslib.load_manifest('joint_state_publisher_experimental')
+import roslib; roslib.load_manifest('joint_state_publisher')
 import rospy
 import wx
 from sensor_msgs.msg import JointState
